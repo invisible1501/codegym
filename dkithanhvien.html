@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset {
+            background-image: linear-gradient(to right, #00ff7f, white);
+            width: 35%;
+            margin: auto;
+        }
+        table tr {
+            height: 40px;
+        }
+        h1 {
+            margin: 0;
+            padding: 0;
+        }
+        input {
+            height: 22px;
+        }
+        span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="POST">
+    <fieldset>
+        <legend><span>MEMBER REGISTRATION</span></legend>
+        <div>
+            <table>
+                <tr>
+                    <td style="width: 150px;"><span>Full Name</span></td>
+                    <td><input type="text" name="name" id="" style="width: 230px;"></td>
+                </tr>
+                <tr>
+                    <td><span>User Name</span></td>
+                    <td><input type="text" name="taikhoan" id=""></td>
+                </tr>
+                <tr>
+                    <td><span>Password</span></td>
+                    <td><input type="password" name="password" id=""></td>
+                </tr>
+                <tr>
+                    <td><span>Confirm Password</span></td>
+                    <td><input type="password" name="password" id=""></td>
+                </tr>
+                <tr>
+                    <td><span>Country</span></td>
+                    <td><select name="Country" id="">
+                            <option value="">----</option>
+                            <option value="">Việt Nam</option>
+                            <option value="">USA</option>
+                            <option value="">England</option>
+                            <option value="">France</option>
+                            <option value="">Germany</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>Email</span></td>
+                    <td><input type="email" name="email" id=""></td>
+                </tr>
+                <tr>
+                    <td><span>Phone</span></td>
+                    <td><input type="tel" name="phone" id=""></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" name="submit" id="" value="Register">
+                        <input type="reset" name="reset" id="" value="Reset"> 
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </fieldset>
+    </form>
+</body>
+</html>
